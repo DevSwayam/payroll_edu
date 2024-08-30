@@ -133,7 +133,7 @@ const Pay = ({ smartContractAccountAddress, signer, smartAccount }) => {
 
     try {
       const { data } = await axios.post(
-        "https://d944q8vk-8080.inc1.devtunnels.ms/distribute-funds",
+        "https://q3bz16th-8080.inc1.devtunnels.ms/distribute-funds",
         {
           amount1: Number(amount1),
           user: smartContractAccountAddress,
