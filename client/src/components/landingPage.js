@@ -120,7 +120,7 @@ const Hero = ({ setSelectedTab }) => {
   );
 };
 
-const freshbooks = "/logos/freshbooks.svg";
+const freshbooks = "/logos/chuuu.png";
 // const sendgrid = "/logos/sendgrid.svg";
 const layers = "/logos/layers.svg";
 const adobe = "/logos/adobe.svg";

@@ -133,7 +133,7 @@ const Pay = ({ smartContractAccountAddress, signer, smartAccount }) => {
 
     try {
       const { data } = await axios.post(
-        "https://8080-vwakesahu-server-36sxmnzs8h2.ws-us115.gitpod.io/distribute-funds",
+        "http://localhost:8080/distribute-funds",
         {
           amount1: Number(amount1),
           user: smartContractAccountAddress,
