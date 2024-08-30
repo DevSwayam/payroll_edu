@@ -1,0 +1,71 @@
+{
+  "chains": {
+    "educhain": {
+      "name": "educhain",
+      "chainId": 656476,
+      "domainId": 656476,
+      "protocol": "ethereum",
+      "rpcUrls": [
+        {
+          "http": "https://open-campus-codex-sepolia.drpc.org"
+        }
+      ],
+      "staticMerkleRootMultisigIsmFactory": "0x279D1F16b8b4953F35f9aE923a56E60464d1f220",
+      "staticMessageIdMultisigIsmFactory": "0x09E935e5Bbea49b75836D2097130B22D73831237",
+      "staticAggregationIsmFactory": "0x88b06E1eC81c8916aB1A45cD61cD2A6969FF6858",
+      "staticAggregationHookFactory": "0x4a9D17814a82065d8AB9f43f023496a9DF13B1c1",
+      "domainRoutingIsmFactory": "0xD340b26514c03c62c82a8B06841f4c5cA340d645",
+      "interchainSecurityModule": "0x3C7B854DB373f16e4f2e584A8f3eca33a7a62E08",
+      "inco": {
+        "messageIdMultisigIsm": "0xfDcE61755105F2A8bcB18669921245BFeC6977dd",
+        "merkleRootMultisigIsm": "0xd0a56EFC90aE9aa255cb77ea7Fc50A53727B75c9",
+        "staticAggregationIsm": "0xfd56013D7474C398f2502c03533f626147cE8894"
+      },
+      "domainRoutingIsm": "0x3C7B854DB373f16e4f2e584A8f3eca33a7a62E08",
+      "merkleTreeHook": "0xaF238b2Fd5b5D6Ec325A6d86A6A21F8177D36FD6",
+      "protocolFee": "0x487D2Da8e52D90949C74bf7979c3337857e36b4F",
+      "testRecipient": "0x4926abd06FF3364aCA761567f60421006aaae4cb",
+      "mailbox": "0xeCcd8F6645d88F2ad3276ECdEc6afb3Cb6a1F6E0",
+      "proxyAdmin": "0x8cd8d7fC3fDB41CA1BeC7503FBAD4d959D851281",
+      "validatorAnnounce": "0x0960f4C5f5622aBD9f2F90c77e0022A03371081F",
+      "interchainGasPaymaster": "0x0000000000000000000000000000000000000000",
+      "index": {
+        "from": 6569969
+      }
+    },
+    "inco": {
+      "name": "inco",
+      "chainId": 9090,
+      "domainId": 9090,
+      "protocol": "ethereum",
+      "rpcUrls": [
+        {
+          "http": "https://testnet.inco.org"
+        }
+      ],
+      "staticMerkleRootMultisigIsmFactory": "0x5f1ddA7e899980d66c3621907841932c6f4A537B",
+      "staticMessageIdMultisigIsmFactory": "0x41A8fb69eb0Ee83565a6cE5fA96cAbcc14066be4",
+      "staticAggregationIsmFactory": "0x39A0f07FaC718C2247eD8EB09dD230A56D7abd5c",
+      "staticAggregationHookFactory": "0xBfA255F8C9aAED5602396429291eb5A330EaA6a0",
+      "domainRoutingIsmFactory": "0x625199B22dd82fc2D787E562aAB63E6Ac335c48b",
+      "interchainSecurityModule": "0x36702081A90428f49BC98aE9EB8067905C54749d",
+      "educhain": {
+        "messageIdMultisigIsm": "0x2ee00dA86597A292bA5252fCC37886f3b10fc479",
+        "merkleRootMultisigIsm": "0x140D9Dc6b6E0D2cddbF6Eb728Dbb14Dc3B7a265f",
+        "staticAggregationIsm": "0x1e78D0DE923220B6E27FDdd14375aBc285d1f0A0"
+      },
+      "domainRoutingIsm": "0x36702081A90428f49BC98aE9EB8067905C54749d",
+      "merkleTreeHook": "0x4C7e9865B9aA70e0777914D5A7A41d0c8439a521",
+      "protocolFee": "0x17A56ec81F42E204D81090268566cb3c75405DF5",
+      "testRecipient": "0x90B354d8c6c035eE52C6A291a020d6e9ed159946",
+      "mailbox": "0xb7BB43b13B08C971713EE2fD59A89F213DCc9C59",
+      "proxyAdmin": "0xfe3D278A97bBee84e67c9f032570dcc29044639B",
+      "validatorAnnounce": "0x13F041cD6de92F617C5cb4c3e9E846009238239b",
+      "interchainGasPaymaster": "0x0000000000000000000000000000000000000000",
+      "index": {
+        "from": 3158844
+      }
+    }
+  },
+  "defaultRpcConsensusType": "fallback"
+}

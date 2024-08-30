@@ -1,0 +1,15 @@
+educhain:
+  name: educhain
+  chainId: 656476
+  domainId: 656476
+  protocol: ethereum
+  rpcUrls:
+    - http: https://open-campus-codex-sepolia.drpc.org
+inco:
+  name: inco
+  chainId: 9090
+  domainId: 9090
+  protocol: ethereum
+  rpcUrls:
+    - http: https://testnet.inco.org
+
